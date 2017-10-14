@@ -1,0 +1,24 @@
+﻿---
+ID: "e39e2e7d-a5bc-451b-b8b4-2aa2963950a9"
+Parent: "de95535d-c151-4066-9aeb-b26ee002c339"
+Template: "2d247808-61c4-4fba-b070-3cbf1113d9d5"
+Path: /sitecore/content/Datasources/Responses/Elephant
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "133cf81b-2465-43e8-a7e7-a5dd587408cc"
+      Hint: Emotion
+      Value: Happiness
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170325T120431Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f579f047-9e74-40e9-ae24-d6b0987a167e"
+      Hint: Reply
+      Value: Unicorn is the best!

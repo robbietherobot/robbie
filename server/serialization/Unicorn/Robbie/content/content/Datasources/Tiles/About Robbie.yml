@@ -1,0 +1,32 @@
+﻿---
+ID: "cb464c65-edb5-4395-89a5-d996b9452012"
+Parent: "a2276874-4d48-45f8-928d-6b9fb61e3da7"
+Template: "8758fe33-ba3f-4a55-ab13-3ad814283d7a"
+Path: /sitecore/content/Datasources/Tiles/About Robbie
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c4d451d-c818-4d89-8429-f442331194b6"
+      Hint: Text
+      Value: Robbie is a <strong>real robot</strong> running on Sitecore, fully developed in C#. Its behaviour is configurable in Sitecore and Robbie uses <strong>Sitecore xDB</strong> to get to know its friends. Robbie runs on a Raspberry Pi, driven by a .NET Core UWP app.
+    - ID: "2196036c-5376-4c92-b661-7519420840c1"
+      Hint: Title
+      Value: About Robbie
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170318T211611Z
+    - ID: "4900362b-a694-4059-9b85-aadbbd65921c"
+      Hint: Link
+      Value: |
+        <link text="Find out more" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "fb727871-cbe1-456e-9845-7dec77468757"
+      Hint: Image
+      Value: |
+        <image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />

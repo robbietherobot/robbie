@@ -1,0 +1,1 @@
+# Referenced assemblies go here, but not everything is included in the repository, to not redestribute licensed software

@@ -1,0 +1,20 @@
+﻿<!-- Banner -->
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    @Html.Sitecore().Field("image")
+    <section id="banner">
+        <header>
+            <h2>@Html.Sitecore().Field("title")</h2>
+            <p>@Html.Sitecore().Field("text")</p>
+        </header>
+    </section>
+}
+else
+{
+    <section id="banner" style='background-color: @Html.Sitecore().Field("background color");background-image: url(@Model.ImageSrc);'>
+        <header>
+            <h2>@Html.Sitecore().Field("title")</h2>
+            <p>@Html.Sitecore().Field("text")</p>
+        </header>
+    </section>
+}

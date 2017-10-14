@@ -1,0 +1,14 @@
+﻿---
+ID: "8b53dc85-f1b6-49d0-94ec-31c645aa922b"
+Parent: "bd82d532-2ada-463a-87e8-df27060cc457"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Robbie/Link list/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170318T201619Z

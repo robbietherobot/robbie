@@ -1,0 +1,18 @@
+﻿---
+ID: "14b4977c-0022-4983-9ff4-71c86eec5114"
+Parent: "dff2078b-88a7-40a9-8974-a6e145b139dc"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Robbie/Headless layout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/layouts/Headless layout.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170315T161601Z

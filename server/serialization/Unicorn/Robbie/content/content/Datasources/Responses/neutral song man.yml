@@ -1,0 +1,21 @@
+﻿---
+ID: "f3211233-6dcb-4a20-8bbc-de089636f1d1"
+Parent: "de95535d-c151-4066-9aeb-b26ee002c339"
+Template: "2d247808-61c4-4fba-b070-3cbf1113d9d5"
+Path: /sitecore/content/Datasources/Responses/neutral song man
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170414T143743Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f579f047-9e74-40e9-ae24-d6b0987a167e"
+      Hint: Reply
+      Value: I would recommend you anything by coldplay

@@ -1,0 +1,44 @@
+﻿body {
+    background-color: black;
+    color: deepskyblue;
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin: 5px;
+}
+
+#single {
+    float: left;
+}
+
+#left {
+    float: left;
+    width: 50%;
+}
+
+#right {
+    align-items: center;
+    display: flex;
+    float: right;
+    justify-content: center;
+    width: 50%;
+}
+
+#sessions, #events, #capture {
+    border: solid 2px deepskyblue;
+    border-radius: 20px;
+    padding: 5px;
+    background-clip: content-box;
+}
+
+#sessions, #events {
+    padding: 5px 10px;
+}
+
+a, a:hover, a:active, a:visited {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #003344;
+}

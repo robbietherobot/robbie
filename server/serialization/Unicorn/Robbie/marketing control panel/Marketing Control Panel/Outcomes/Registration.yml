@@ -1,0 +1,31 @@
+﻿---
+ID: "109ae23d-1f97-488b-95d4-e20133ad987b"
+Parent: "062a1e69-0bf6-4d6d-ac4f-c11d0f7dc1e1"
+Template: "ee43c2f0-6277-4144-b144-8ca2cefccf12"
+Path: /sitecore/system/Marketing Control Panel/Outcomes/Registration
+DB: master
+SharedFields:
+- ID: "6ae27532-bac3-42c3-b91f-b4f1f20711c0"
+  Hint: Group
+  Value: "{7D618803-64E1-448D-B2A7-C54A9B27AF40}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170417T201651Z
+    - ID: "2a8d9ab0-b1c1-4da3-b17d-1610ad23d697"
+      Hint: Name
+      Value: Registration
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

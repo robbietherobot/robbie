@@ -1,0 +1,64 @@
+﻿---
+ID: "7241481e-ad46-4fbb-a0ba-b751cf9f3784"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "8bfcb659-9828-426e-9b42-c4757334efb5"
+Path: /sitecore/content/Home/Identify
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{5EABF587-19D5-457A-8656-61094AE41D18}">
+            <r
+              uid="{E8D0BDE1-6160-41D0-AAEB-B63BFB8FA886}"
+              s:ds="{9523838B-256C-488C-B508-DA3C6EC10359}"
+              s:id="{FB248D49-2E79-413C-870C-700A63DDADC8}"
+              s:ph="main">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{EAD6C945-2F03-42CA-A74B-A6AA0096C29F}"
+                    s:name="Female">
+                    <conditions>
+                      <condition
+                        uid="29BAFDD4A1C4474EAFE05C0E398C6D9C"
+                        s:id="{0306A149-9C34-4D62-A309-83929C96E7FB}"
+                        s:OperatorId="{537244C2-3A3F-4B81-A6ED-02AF494C0563}"
+                        s:Value="female" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="389D65B7154D4E7B86C1251505905C00"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{F88CAEB3-AEB8-4336-A7BA-82EC5B0C9A42}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="A74DE6D9CC38406BAC53483761DB143B"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170404T182047Z
+    - ID: "a92ab41c-5a69-4e6e-baca-26674b186c16"
+      Hint: Intent
+      Value: Identify

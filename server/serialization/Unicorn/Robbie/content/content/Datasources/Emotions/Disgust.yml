@@ -1,0 +1,21 @@
+﻿---
+ID: "59ea1fa0-a19d-49df-a64a-aa1a26ef00a5"
+Parent: "f6210c19-e761-4d31-bbb7-1f3fd615941d"
+Template: "1e7d111a-59c0-4324-bea3-65b7f79b8f93"
+Path: /sitecore/content/Datasources/Emotions/Disgust
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18afecdd-eb92-459b-a5c6-517a4bccefd1"
+      Hint: Description
+      Value: Disgust
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170315T121741Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

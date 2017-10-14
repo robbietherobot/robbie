@@ -1,0 +1,29 @@
+﻿---
+ID: "e9995678-3325-41dd-a688-19446bc80530"
+Parent: "26222eb6-ac21-4e41-b882-fa165dead6a0"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Robbie/header
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: header
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {BD8EAD9C-64EA-4630-8A1E-8F18FCD5E806}
+    {6F5737C2-C08E-4012-89B5-50618A1A4A1A}
+    {F20356B4-AB0B-4728-84D4-C934E6FF84B8}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170317T223513Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

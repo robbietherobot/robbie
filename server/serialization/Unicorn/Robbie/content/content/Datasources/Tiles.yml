@@ -1,0 +1,22 @@
+﻿---
+ID: "a2276874-4d48-45f8-928d-6b9fb61e3da7"
+Parent: "6e86490c-16d6-423c-80f0-f07adb755a3d"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Datasources/Tiles
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {BD82D532-2ADA-463A-87E8-DF27060CC457}
+    {8758FE33-BA3F-4A55-AB13-3AD814283D7A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170318T202006Z

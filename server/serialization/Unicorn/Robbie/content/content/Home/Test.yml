@@ -1,0 +1,53 @@
+﻿---
+ID: "10c5e63d-03ff-426d-9346-0e88e897c54c"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "8bfcb659-9828-426e-9b42-c4757334efb5"
+Path: /sitecore/content/Home/Test
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{9208FE07-86E9-4794-8541-BEC4ECFE53C2}"
+        name="Emotion"
+        presets="happy|100||">
+        <key
+          name="Anger"
+          value="0" />
+        <key
+          name="Contempt"
+          value="0" />
+        <key
+          name="Disgust"
+          value="0" />
+        <key
+          name="Fear"
+          value="0" />
+        <key
+          name="Happiness"
+          value="65" />
+        <key
+          name="Neutral"
+          value="0" />
+        <key
+          name="Sadness"
+          value="0" />
+        <key
+          name="Surprise"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170412T210322Z
+    - ID: "a92ab41c-5a69-4e6e-baca-26674b186c16"
+      Hint: Intent
+      Value: test

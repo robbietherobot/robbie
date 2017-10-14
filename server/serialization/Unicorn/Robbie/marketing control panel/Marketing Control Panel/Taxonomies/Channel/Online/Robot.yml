@@ -1,0 +1,22 @@
+﻿---
+ID: "832e85a4-a2a1-49a8-ad8a-f30218c80c8a"
+Parent: "d07286fa-67ce-4d66-8783-0140b8b91ef1"
+Template: "3ba3d006-1648-4cc7-8d19-ffadfdc46d0f"
+Path: /sitecore/system/Marketing Control Panel/Taxonomies/Channel/Online/Robot
+DB: master
+SharedFields:
+- ID: "8fb875eb-3ad3-44ff-87e1-998370cc3199"
+  Hint: Code
+  Value: 55
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170417T084957Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

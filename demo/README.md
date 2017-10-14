@@ -1,0 +1,3 @@
+# Robbie the Sitecore robot - demo application #
+
+This application is optional and only for demo purposes: it is an upstream for Robbie events triggered on the Pi. Whenever Robbie throws an event, it can be send to this databaseless website (storage based on JSON), so you can view what happens on the Pi semi-realtime. This option is disabled by default in the client application, and if enabled harms the performance considerably, but in scenarios where you cannot connect the Pi to a screen via HDMI, this application can help in debugging the client application.

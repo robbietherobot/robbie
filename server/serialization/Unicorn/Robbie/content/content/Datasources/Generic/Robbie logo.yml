@@ -1,0 +1,22 @@
+﻿---
+ID: "f5b93ee7-1462-42a9-81d0-a2cdcf4620d4"
+Parent: "50569e69-3b11-4497-853c-14fe3176508d"
+Template: "855d68aa-8392-4fd3-b171-cfed40885ed1"
+Path: /sitecore/content/Datasources/Generic/Robbie logo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170317T231252Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "fb727871-cbe1-456e-9845-7dec77468757"
+      Hint: Image
+      Value: |
+        <image mediaid="{BB7B973E-6C8A-418F-9527-7F2469011582}" />

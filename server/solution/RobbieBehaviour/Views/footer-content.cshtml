@@ -1,0 +1,14 @@
+﻿<div class="4u 12u(mobile)">
+    <section>
+        <header>
+            <h2>@Html.Sitecore().Field("title")</h2>
+        </header>
+        <a href="@Model.LinkSrc" target="@Model.LinkTarget" class="image featured"><img src="@Model.ImageSrc" alt="@Model.ImageAlt" /></a>
+        <p>
+            @Html.Sitecore().Field("text")
+        </p>
+        <footer>
+            <a href="@Model.LinkSrc" target="@Model.LinkTarget" class="button">@Model.LinkText</a>
+        </footer>
+    </section>
+</div>

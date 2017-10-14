@@ -1,0 +1,21 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@if (!Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    @Html.Sitecore().VisitorIdentification()
+    @Html.Sitecore().Placeholder("main")
+}
+else
+{
+    <!DOCTYPE html>
+    <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        @Html.Sitecore().VisitorIdentification()
+    </head>
+    <body>
+        <div>
+            @Html.Sitecore().Placeholder("main")
+        </div>
+    </body>
+    </html>
+}

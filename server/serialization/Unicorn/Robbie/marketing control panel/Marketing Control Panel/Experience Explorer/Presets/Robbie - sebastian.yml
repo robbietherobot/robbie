@@ -1,0 +1,29 @@
+﻿---
+ID: "fe104a98-d62e-4610-a3fc-3be9da3a77bc"
+Parent: "d012a738-7871-40df-ab6e-ea71f7137bed"
+Template: "656218df-c490-45fc-90c4-b58fb38838f7"
+Path: "/sitecore/system/Marketing Control Panel/Experience Explorer/Presets/Robbie - sebastian"
+DB: master
+SharedFields:
+- ID: "02ee3b76-c42d-411f-82a4-d0b9069403df"
+  Hint: Device
+  Value: "{5EABF587-19D5-457A-8656-61094AE41D18}"
+- ID: "6aa5013b-9d90-473d-ae8f-f48d724eadbf"
+  Hint: Classify As
+  Value: "025 - Existing Customer"
+Languages:
+- Language: en
+  Fields:
+  - ID: "a874ab53-08df-412e-8885-edba38feb0b9"
+    Hint: Name
+    Value: "Robbie - sebastian"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170414T135041Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

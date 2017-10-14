@@ -1,0 +1,32 @@
+﻿---
+ID: "7f3b4176-3536-42b0-bb81-d9fb66c9b6fb"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "8bfcb659-9828-426e-9b42-c4757334efb5"
+Path: /sitecore/content/Home/Elephant
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{5EABF587-19D5-457A-8656-61094AE41D18}">
+            <r
+              uid="{340D4397-620F-43FB-B0FA-7F916A878B72}"
+              s:ds="{E39E2E7D-A5BC-451B-B8B4-2AA2963950A9}"
+              s:id="{FB248D49-2E79-413C-870C-700A63DDADC8}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170325T120316Z
+    - ID: "a92ab41c-5a69-4e6e-baca-26674b186c16"
+      Hint: Intent
+      Value: Elephant

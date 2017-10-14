@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<div id="single">
+    <div id="sessions">
+        
+        @foreach (var session in Model.Sessions)
+        {
+            <a href="/overview.html?sessionId=@session.SessionId">@session.TimeStamp :: [session] @session.SessionId</a><br />
+        }
+        
+    </div>
+</div>

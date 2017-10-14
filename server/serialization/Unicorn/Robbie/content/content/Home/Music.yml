@@ -1,0 +1,160 @@
+﻿---
+ID: "a3382648-0690-4f34-b98d-813aaf02714c"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "8bfcb659-9828-426e-9b42-c4757334efb5"
+Path: /sitecore/content/Home/Music
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{5EABF587-19D5-457A-8656-61094AE41D18}">
+            <r
+              uid="{99FB15EC-EEFD-47B9-8B78-19C13C98A2A0}"
+              s:id="{FB248D49-2E79-413C-870C-700A63DDADC8}"
+              s:ph="main">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{7ABC6B08-5ED2-4F5B-9C25-5A80DB8B8D93}"
+                    s:name="Happy">
+                    <conditions>
+                      <condition
+                        uid="141264F45CA9450188C0E07EBD428D88"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Emotion"
+                        s:PatternName="Happy Hendrik" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="738EE1D097EC4716B6B1F00E8E41AD58"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{CD984E96-D0FD-4267-B7FC-1EA53D1A7306}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{E3FDF562-617B-4E1E-938E-54E2A6E80FDC}"
+                    s:name="neutral woman">
+                    <conditions>
+                      <and
+                        uid="61EA7FC389F941CC83C1C8AF217D8CCA">
+                        <condition
+                          uid="55BEFC370B71444EAAB6E96940FFD67F"
+                          s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                          s:ProfileName="Emotion"
+                          s:PatternName="Neutral Nico" />
+                        <condition
+                          uid="8F562E0D16144EBFA29685F586E0C343"
+                          s:id="{0306A149-9C34-4D62-A309-83929C96E7FB}"
+                          s:OperatorId="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                          s:Value="female" />
+                      </and>
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="F9374692A59E4D79B8CC19E8AECAE7DE"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{41843325-1E78-4D65-B8E9-B55F0DA45D62}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{9219CACD-F968-4091-A8E0-EB212AE8744A}"
+                    s:name="neutral men">
+                    <actions>
+                      <action
+                        uid="51FF262C5CC54512B46541365C467DC1"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{F3211233-6DCB-4A20-8BBC-DE089636F1D1}" />
+                    </actions>
+                    <conditions>
+                      <and
+                        uid="A5C0088C921D486E83EEF41859340D19">
+                        <condition
+                          uid="EFE67B0D4B4B49EA93D547983389D362"
+                          s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                          s:ProfileName="Emotion"
+                          s:PatternName="Neutral Nico" />
+                        <condition
+                          uid="982B8717B30B4887A483F7745B27BADD"
+                          s:id="{0306A149-9C34-4D62-A309-83929C96E7FB}"
+                          s:OperatorId="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                          s:Value="male" />
+                      </and>
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{5723AB8E-E896-4CEC-912B-E829A50748E1}"
+                    s:name="Sad women">
+                    <conditions>
+                      <and
+                        uid="978B141464A1474AB6E0205010E69A09">
+                        <condition
+                          uid="C8EDFB52031F46C5976DC7A833EA7ED6"
+                          s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                          s:ProfileName="Emotion"
+                          s:PatternName="Sad Simon" />
+                        <condition
+                          uid="3C59D0329C3E49FBA6FCA23F50CC2FEA"
+                          s:id="{0306A149-9C34-4D62-A309-83929C96E7FB}"
+                          s:OperatorId="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                          s:Value="female" />
+                      </and>
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="F3494EE239684316992E5094707D99E5"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{F511B138-11C5-4DC7-8E59-9893DC6DB790}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{88009140-B8B2-427E-9A5F-199FBB633532}"
+                    s:name="Sad men">
+                    <conditions>
+                      <and
+                        uid="FC97D472D6624EE78B7C01EF666053F6">
+                        <condition
+                          uid="5AF3FB341F624E4EAA20A9E65C4D8030"
+                          s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                          s:ProfileName="Emotion"
+                          s:PatternName="Sad Simon" />
+                        <condition
+                          uid="89FF06507DE3456C891ED8357DC8F831"
+                          s:id="{0306A149-9C34-4D62-A309-83929C96E7FB}"
+                          s:OperatorId="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                          s:Value="male" />
+                      </and>
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="87A605E3A53F4C49A7F3204EED46078E"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{2B235DA0-0619-4F6D-89D6-3E40F6DD278B}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="D3FC21D7434A4FE49E7E5C3DDC6CE37F"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170414T144055Z

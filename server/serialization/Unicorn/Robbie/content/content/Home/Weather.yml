@@ -1,0 +1,45 @@
+﻿---
+ID: "c7520031-45fe-44d0-b34c-79a71c0adbb2"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "8bfcb659-9828-426e-9b42-c4757334efb5"
+Path: /sitecore/content/Home/Weather
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DEC009AC-3D24-4E9E-972E-E0A4BEBBF058}"
+              p:before="*"
+              s:ds="{B9FF8351-1871-445F-B6C4-68A5766E4DBD}"
+              s:id="{3894672D-A914-4AB0-91C0-ECD27B3CE4C6}"
+              s:ph="main" />
+          </d>
+          <d
+            id="{5EABF587-19D5-457A-8656-61094AE41D18}">
+            <r
+              uid="{07D955C3-AF62-43C7-81E5-B356CF77A0A7}"
+              s:ds="{B9FF8351-1871-445F-B6C4-68A5766E4DBD}"
+              s:id="{FB248D49-2E79-413C-870C-700A63DDADC8}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170318T222257Z
+    - ID: "a92ab41c-5a69-4e6e-baca-26674b186c16"
+      Hint: Intent
+      Value: weather

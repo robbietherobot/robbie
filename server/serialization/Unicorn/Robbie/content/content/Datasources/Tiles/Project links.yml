@@ -1,0 +1,30 @@
+﻿---
+ID: "60e8ae44-2823-41fe-ae49-7f59959eaf92"
+Parent: "a2276874-4d48-45f8-928d-6b9fb61e3da7"
+Template: "bd82d532-2ada-463a-87e8-df27060cc457"
+Path: /sitecore/content/Datasources/Tiles/Project links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0088806b-a729-43fb-98ef-c56b23ca5f4f"
+      Hint: Links
+      Value: |
+        <ul>
+            <li><a href="https://bitbucket.org/robhabraken/robbie" target="_blank">Code repository on BitBucket</a></li>
+            <li><a href="https://trello.com/b/XMGKxVKR/robbie-the-sitecore-robot" target="_blank">Trello board of Robbie</a></li>
+            <li><a href="https://www.robhabraken.nl/" target="_blank">Blog by Rob Habraken</a></li>
+            <li><a href="http://blog.baslijten.com/" target="_blank">Blog by Bas Lijten</a></li>
+        </ul>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170318T202033Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8c2f442c-c8f6-41cf-83cf-0fa548931928"
+      Hint: Title
+      Value: Useful resources

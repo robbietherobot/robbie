@@ -1,0 +1,41 @@
+﻿---
+ID: "8f545189-12b6-42b3-b5b0-b85bfbfc05f5"
+Parent: "b537321d-0a27-4648-aa96-80d274ad6742"
+Template: "4a6a7e36-2481-438f-a9ba-0453ecc638fa"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Emotion/Pattern Cards/Neutral Nico
+DB: master
+SharedFields:
+- ID: "6da71ad3-5849-4482-9317-d21390e5a348"
+  Hint: Pattern
+  Value: |
+    <tracking>
+      <profile id="{9208FE07-86E9-4794-8541-BEC4ECFE53C2}" name="Emotion">
+        <key name="Anger" value="0" />
+        <key name="Contempt" value="0" />
+        <key name="Disgust" value="0" />
+        <key name="Fear" value="0" />
+        <key name="Happiness" value="0" />
+        <key name="Neutral" value="90" />
+        <key name="Sadness" value="0" />
+        <key name="Surprise" value="0" />
+      </profile>
+    </tracking>
+- ID: "98535f26-6c9d-4fd7-a7e2-392c7cb82d65"
+  Hint: Image
+  Value: |
+    <image mediaid="{F7F40E95-5734-4D33-9315-FE4918F7FB3B}" />
+- ID: "fe732790-2ddb-4657-a882-c2fce1fbf0c9"
+  Hint: Name
+  Value: Neutral Nico
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170414T112338Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

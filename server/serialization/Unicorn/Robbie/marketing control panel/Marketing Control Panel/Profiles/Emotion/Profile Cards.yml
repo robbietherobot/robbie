@@ -1,0 +1,19 @@
+﻿---
+ID: "677b13e0-f07e-4b23-901b-f146911fd302"
+Parent: "9208fe07-86e9-4794-8541-bec4ecfe53c2"
+Template: "1ad02405-7207-4962-ba96-6d6c3ba30ba7"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Emotion/Profile Cards
+DB: master
+BranchID: "07624a03-bb2f-45d8-abe1-15e2b1705ff3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161216T232900Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,34 @@
+﻿---
+ID: "8d96e5e0-0ce2-44a1-93e3-e113b7e54222"
+Parent: "de95535d-c151-4066-9aeb-b26ee002c339"
+Template: "2d247808-61c4-4fba-b070-3cbf1113d9d5"
+Path: /sitecore/content/Datasources/Responses/Tell a bad joke
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "133cf81b-2465-43e8-a7e7-a5dd587408cc"
+      Hint: Emotion
+      Value: Contempt
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170315T121955Z
+    - ID: "3820ba3b-9383-4590-9f75-bc599ee1f831"
+      Hint: Title
+      Value: Bad joke
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ae05218d-9efd-4608-b16c-9b2e5178fec8"
+      Hint: Subtitle
+      Value: Trying to be funny, but it ain't one of my best jokes
+    - ID: "f579f047-9e74-40e9-ae24-d6b0987a167e"
+      Hint: Reply
+      Value: "What did one ocean say to the other ocean? Nothing, they just waved."
+    - ID: "fb727871-cbe1-456e-9845-7dec77468757"
+      Hint: Image
+      Value: |
+        <image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />

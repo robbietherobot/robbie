@@ -1,0 +1,18 @@
+﻿---
+ID: "f07da413-da0f-41aa-8f52-a99a48b9141c"
+Parent: "1a1b303c-4537-477a-b626-0298c3f93f18"
+Template: "ec4dd3f2-590d-404b-9189-2a12679749cc"
+Path: /sitecore/content/dictionary/Demo/Personal Info/Communication Revoked
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170329T150931Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

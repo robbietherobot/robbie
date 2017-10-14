@@ -1,0 +1,138 @@
+﻿---
+ID: "3f7f6cd5-092c-4122-80ce-bccbe1d17228"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "8bfcb659-9828-426e-9b42-c4757334efb5"
+Path: /sitecore/content/Home/Joke
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <event
+        id="{0C0A3BFE-2364-4231-8F9F-F4E4B87706EF}"
+        name="Joke" />
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{415AE6ED-46EC-4D64-B50C-3FF1C6D93FBE}"
+              p:after="*[1=2]"
+              s:ds="{8D96E5E0-0CE2-44A1-93E3-E113B7E54222}"
+              s:id="{3894672D-A914-4AB0-91C0-ECD27B3CE4C6}"
+              s:ph="main" />
+          </d>
+          <d
+            id="{5EABF587-19D5-457A-8656-61094AE41D18}">
+            <r
+              uid="{E858BB61-C46F-4C5B-AB64-D830806B8692}"
+              s:ds="{8D96E5E0-0CE2-44A1-93E3-E113B7E54222}"
+              s:id="{FB248D49-2E79-413C-870C-700A63DDADC8}"
+              s:ph="main">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{92EEBB93-ABD6-4A58-8201-2A010B23BCA1}"
+                    s:name="Happy">
+                    <conditions>
+                      <condition
+                        uid="5DDFF910872E4FBA97B28A15193B67D1"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Emotion"
+                        s:PatternName="Happy Hendrik" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="8A51B0FA6A6E4F3AB2DF91F3FDC56E3C"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{64746C0C-3C7F-4E80-9321-4D4260BD90F3}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{8D82779E-A231-4E83-A217-13B3779A9DF0}"
+                    s:name="Neutral">
+                    <conditions>
+                      <condition
+                        uid="143387CE7B294C06BB95DD4D9DBC1355"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Emotion"
+                        s:PatternName="Neutral Nico" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="063720CCB7FA4ACCA947EAF0FD0DE895"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{E278193A-3080-424B-8592-E4C66CEAB088}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{79A2255E-33F7-420B-BAA2-3AF4687A6CAC}"
+                    s:name="female">
+                    <conditions>
+                      <condition
+                        uid="68291EA051834D2E9F014F882F61A3BE"
+                        s:id="{0306A149-9C34-4D62-A309-83929C96E7FB}"
+                        s:OperatorId="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:Value="female" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="123F984C539141B8BC8DF5F823F73E48"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{F88CAEB3-AEB8-4336-A7BA-82EC5B0C9A42}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{69AD33CB-5540-4DE3-A168-8C86CB1F1A6C}"
+                    s:name="male">
+                    <conditions>
+                      <condition
+                        uid="2139361C9C8C4ECE9A558B749FCE1BC7"
+                        s:id="{0306A149-9C34-4D62-A309-83929C96E7FB}"
+                        s:OperatorId="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:Value="male" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="AEDA7087408E4A1286A11EE34F66D101"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{E39E2E7D-A5BC-451B-B8B4-2AA2963950A9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="0CA229B8863C4DDBADD58DC011D40507"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170309T132606Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a92ab41c-5a69-4e6e-baca-26674b186c16"
+      Hint: Intent
+      Value: joke

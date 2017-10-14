@@ -1,0 +1,76 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+<!DOCTYPE HTML>
+<!--
+    Original HTML template 'Dopetrope' by HTML5 UP
+    html5up.net | &#64;ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body class="no-sidebar">
+    <div id="page-wrapper">
+        
+        <!-- Header -->
+        <div id="header-wrapper">
+            <div id="header">
+
+                @Html.Sitecore().Placeholder("header")
+
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div id="main-wrapper">
+            <div class="container">
+
+                @Html.Sitecore().Placeholder("main")
+
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div id="footer-wrapper">
+            <section id="footer" class="container">
+                <div class="row">
+
+                    @Html.Sitecore().Placeholder("footer")
+
+                </div>
+                <div class="row">
+                    <div class="12u">
+
+                        <!-- Copyright -->
+                        <div id="copyright">
+                            <ul class="links">
+                                <li>&copy; Rob Habraken &amp; Bas Lijten. All rights reserved.</li>
+                                <li>Original HTML Design by <a href="http://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/skel-viewport.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

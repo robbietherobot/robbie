@@ -1,0 +1,38 @@
+﻿---
+ID: "878b5863-8a3b-4ea8-ac4b-59f011198666"
+Parent: "677b13e0-f07e-4b23-901b-f146911fd302"
+Template: "0fc09ea4-8d87-4b0e-a5c9-8076ae863d9c"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Emotion/Profile Cards/Happy
+DB: master
+SharedFields:
+- ID: "85970ab7-22ea-4206-be86-c0167178860b"
+  Hint: Profile Card Value
+  Value: |
+    <tracking>
+      <profile id="{9208FE07-86E9-4794-8541-BEC4ECFE53C2}" name="Emotion">
+        <key name="Anger" value="0" />
+        <key name="Contempt" value="0" />
+        <key name="Disgust" value="0" />
+        <key name="Fear" value="0" />
+        <key name="Happiness" value="65" />
+        <key name="Neutral" value="0" />
+        <key name="Sadness" value="0" />
+        <key name="Surprise" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Fields:
+  - ID: "a26fc256-1db0-44aa-ba3d-1c830bf882a2"
+    Hint: Name
+    Value: Happy
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170412T210256Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

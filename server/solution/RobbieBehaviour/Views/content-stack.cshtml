@@ -1,0 +1,13 @@
+﻿<!-- Content -->
+<article class="box post">
+    <div class="image featured">
+        <img src="@Model.ImageSrc" alt="@Model.ImageAlt" />
+    </div>
+    <header>
+        <h2>@Html.Sitecore().Field("title")</h2>
+        <p>@Html.Sitecore().Field("subtitle")</p>
+    </header>
+    <p>
+        &quot;@Html.Sitecore().Field("reply")&quot;
+    </p>
+</article>

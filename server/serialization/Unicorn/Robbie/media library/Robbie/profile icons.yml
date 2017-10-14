@@ -1,0 +1,14 @@
+﻿---
+ID: "cb8324d2-221c-43d4-8696-ba5ca98640a4"
+Parent: "72427f77-605b-4df3-bd4c-fb14e8cb909a"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Robbie/profile icons
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170424T093837Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "517a402b-a89e-4d43-81d6-6de45371d00d"
+Parent: "4497a9be-0a00-4ee4-9ae0-50d6cbb4fab2"
+Template: "6e5b63d6-2401-4a52-8b4d-cfef5e4e9752"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Enrollment
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170417T084645Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{39156DC0-21C6-4F64-B641-31E85C8F5DFE}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

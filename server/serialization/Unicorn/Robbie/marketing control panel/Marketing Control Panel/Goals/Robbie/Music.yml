@@ -1,0 +1,58 @@
+﻿---
+ID: "034d1b38-4936-40ea-ae00-c7f06ee5afb3"
+Parent: "86b6b7ed-8b09-4cb5-9373-f563397d1ddb"
+Template: "475e9026-333f-432d-a4dc-52e03b75cb6b"
+Path: /sitecore/system/Marketing Control Panel/Goals/Robbie/Music
+DB: master
+SharedFields:
+- ID: "2f2ae296-8b58-4d94-8eee-0e82589d61a4"
+  Hint: Show in Page Events
+  Type: Checkbox
+  Value: 1
+- ID: "6f10e607-2d04-4c0d-963a-fc79b5c4e8ce"
+  Hint: Track as Latest Event
+  Type: Checkbox
+  Value: 1
+- ID: "71ebdebd-9560-48c6-a66f-e17fc018232c"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{43C08100-7641-4196-8569-EF6EE491E641}">
+        <conditions>
+          <condition
+            id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}"
+            uid="8C9F3E0226C448B783B750FD01F4A083"
+            ChannelId="{7A8B7497-C9B7-4DC8-9718-2810CB094BB0}" />
+        </conditions>
+        <actions>
+          <action
+            id="{4D151B8B-BD5F-4479-A35F-EE740F6387E8}"
+            uid="18D08EE991B347E7B04D923962BF5B22"
+            level="Info"
+            text="Robbie Robbie" />
+        </actions>
+      </rule>
+    </ruleset>
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+- ID: "ac6ba888-4213-43bd-b787-d8da2b6b881f"
+  Hint: Name
+  Value: Music
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170417T130339Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

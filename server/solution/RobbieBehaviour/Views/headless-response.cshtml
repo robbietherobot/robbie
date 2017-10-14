@@ -1,0 +1,19 @@
+﻿@using Sitecore.Mvc
+@if (!Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <text>
+    {
+        "response": {
+            "reply": "@Html.Sitecore().Field("reply")",
+            "emotion": "@Html.Sitecore().Field("emotion")",
+            "action": "@Html.Sitecore().Field("action")"
+        }
+    }
+    </text>
+}
+else
+{
+    <div>Reply: @Html.Sitecore().Field("reply")</div>
+    <div>Emotion: @Html.Sitecore().Field("emotion")</div>
+    <div>Action: @Html.Sitecore().Field("action")</div>
+}
