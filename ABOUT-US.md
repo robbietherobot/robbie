@@ -9,7 +9,7 @@ With over 10 years of Sitecore experience, still always looking for new possibil
 
 For his contributions to the Sitecore community, he has been awarded the Sitecore Technology MVP award 2016 and the Sitecore MVP Cloud award 2017.
 
-*You can follow Rob on Twitter at [@rhabraken](https://twitter.com/rhabraken) and on his Sitecore blog https://www.robhabraken.nl*
+*You can follow Rob on Twitter [@rhabraken](https://twitter.com/rhabraken) and on his Sitecore blog https://www.robhabraken.nl*
 
 ## Bas Lijten
 
@@ -17,5 +17,5 @@ Bas Lijten is a Principal Architect at Achmea and Sitecore MVP with a very broad
 
 Parallel to the projects, he did a lot of research on integrating IoT with Sitecore, integrating Claims based authentication and other fun and complicated challenges. And because he works on a “need to share” basis, he shares all that information with the communities and product teams, because he believes that if you invest in others, in the end, you will get back more than double the investment.
 
-*You can follow Bas on Twitter at [@baslijten](https://twitter.com/baslijten) and on his blog https://blog.baslijten.com*
+*You can follow Bas on Twitter [@baslijten](https://twitter.com/baslijten) and on his blog https://blog.baslijten.com*
 
