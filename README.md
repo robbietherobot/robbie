@@ -12,4 +12,4 @@ We will make the Robbie project fully Open Source, keep an eye out on this repos
 
 ## Contact ##
 
-If you have any questions, ideas or suggestions, please contact us via Twitter: @rhabraken or @baslijten.
+If you have any questions, ideas or suggestions, please contact us via Twitter: [@rhabraken](https://twitter.com/rhabraken) and [@baslijten](https://twitter.com/baslijten).
