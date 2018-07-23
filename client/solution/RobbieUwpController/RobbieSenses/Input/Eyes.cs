@@ -35,12 +35,7 @@ namespace RobbieSenses.Input
         /// Computer vision instance.
         /// </summary>
         private readonly ComputerVision computerVision;
-
-        /// <summary>
-        /// Emotion detection instance.
-        /// </summary>
-        private readonly EmotionDetection emotionDetection;
-
+        
         /// <summary>
         /// IdentityInterpolation object used to keep track of all identities and corresponding personal data harvested by other API calls.
         /// </summary>
@@ -110,7 +105,6 @@ namespace RobbieSenses.Input
             faceTracking = new FaceTracking();
             faceDetection = new FaceDetection();
             computerVision = new ComputerVision();
-            emotionDetection = new EmotionDetection();
 
             identityInterpolation = new IdentityInterpolation();
             visualization = new Vision();
@@ -329,38 +323,9 @@ namespace RobbieSenses.Input
         /// Get the emotions of the current identity (if there is a current identity).
         /// </summary>
         /// <returns>An EmotionScores object describing the emotions of the current identity.</returns>
-        public async Task<EmotionScores> GetEmotions()
+        public EmotionScores GetEmotions()
         {
-            if (currentIdentity == null) return null;
-
-            await RecognizeEmotions();
-            return currentIdentity.EmotionScores;                        
-        }
-
-        /// <summary>
-        /// Scan the current video frame for emotions, attaching them to the currently stored identities.
-        /// </summary>
-        public async Task RecognizeEmotions()
-        {
-            await Camera.Instance.CapturePhoto(RecognizeEmotions_Delegate);
-        }
-
-        /// <summary>
-        /// Delegate to define the actions taken upon the photo capture of the camera class.
-        /// This one uses the memory stream of the photo capture to detect emotions in the given image, using the local computer vision instance.  
-        /// </summary>
-        /// <param name="memoryStream">The memory stream containing the captured image.</param>
-        private async Task RecognizeEmotions_Delegate(MemoryStream memoryStream)
-        {
-            var emotions = await emotionDetection.DetectEmotions(memoryStream);
-
-            if (emotions != null && emotions.Length > 0)
-            {
-                foreach (var emotion in emotions)
-                {
-                    identityInterpolation.DetectedEmotion(emotion);
-                }
-            }
+            return currentIdentity?.Appearance.Emotion;
         }
 
         /// <summary>

@@ -1,12 +1,12 @@
-﻿using Microsoft.ProjectOxford.Face.Contract;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Windows.Foundation;
 using Windows.Graphics.Imaging;
 using Windows.Media.FaceAnalysis;
 using Microsoft.ProjectOxford.Common;
-using Emotion = Microsoft.ProjectOxford.Emotion.Contract.Emotion;
+using Microsoft.ProjectOxford.Common.Contract;
+using Microsoft.ProjectOxford.Face.Contract;
 
 namespace RobbieSenses.Evaluation
 {

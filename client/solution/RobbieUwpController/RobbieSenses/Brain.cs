@@ -476,7 +476,7 @@ namespace RobbieSenses
         /// <returns>A Task object for this method is asynchronous.</returns>
         private async Task UpdateEmotion()
         {
-            var emotions = await eyes.GetEmotions();
+            var emotions = eyes.GetEmotions();
             if (emotions == null) return;
 
             var emotionScore = new ProfileCardViewModel

@@ -78,7 +78,8 @@ namespace RobbieSenses.Evaluation
         /// <returns>The final person ID of the Face API created person, or the ID of the person with this name that already existed.</returns>
         public async Task<Guid> CreatePerson(string name)
         {
-            var persons = await faceServiceClient.GetPersonsAsync(personGroupId);
+            var persons = await faceServiceClient.ListPersonsAsync(personGroupId);
+
             var result = persons.Where(p => p.Name == name).ToList();
 
             if (result.Any())
@@ -105,7 +106,7 @@ namespace RobbieSenses.Evaluation
         /// <returns>A boolean indicating whether or not the storing succeeded.</returns>
         public async Task<bool> StoreFaceFor(string name, Stream imageStream)
         {                        
-            var persons = await faceServiceClient.GetPersonsAsync(personGroupId);            
+            var persons = await faceServiceClient.ListPersonsAsync(personGroupId);            
             foreach (var person in persons)
             {
                 if (person.Name.Equals(name, StringComparison.CurrentCultureIgnoreCase))
@@ -163,7 +164,8 @@ namespace RobbieSenses.Evaluation
                 FaceAttributeType.Age,
                 FaceAttributeType.FacialHair,
                 FaceAttributeType.Glasses,
-                FaceAttributeType.Gender
+                FaceAttributeType.Gender,
+                FaceAttributeType.Emotion
             };
             var faces = await faceServiceClient.DetectAsync(imageStream, returnFaceAttributes: attrs);
 

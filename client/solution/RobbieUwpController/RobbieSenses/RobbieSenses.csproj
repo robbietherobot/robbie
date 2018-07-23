@@ -133,7 +133,6 @@
     <Compile Include="Interfaces\IEars.cs" />
     <Compile Include="Interfaces\IEyes.cs" />
     <Compile Include="Evaluation\ComputerVision.cs" />
-    <Compile Include="Evaluation\EmotionDetection.cs" />
     <Compile Include="Evaluation\FaceDetection.cs" />
     <Compile Include="Evaluation\FaceTracking.cs" />
     <Compile Include="Evaluation\IdentityInterpolation.cs" />
